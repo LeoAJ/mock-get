@@ -6,10 +6,6 @@
   "scripts": {
     "build": "babel src -d lib --presets es2015"
   },
-  "keywords": [
-    "http",
-    "promise"
-  ],
   "author": "Leo Hsieh <leo0924@gmail.com> (http://leoj.js.org)",
   "license": "MIT",
   "devDependencies": {
