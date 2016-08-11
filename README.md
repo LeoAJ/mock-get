@@ -16,8 +16,8 @@ import get from 'mock-get';
 get(delay, mockData, hasError);
 ```
 
-* `delay` milliseconds you want to delay your request
-* `mockData` json object will be resolve in the Promise (optional)Pp
+* `delay` milliseconds you want to delay your request, default is `500`
+* `mockData` json object will be resolve in the Promise (optional)
 * `hasError` default is false, set to true if you want the Promise to reject (optional)
 
 Use second parameter as boolean to set `hasError` if you do not have your own mock data.
@@ -25,7 +25,7 @@ Use second parameter as boolean to set `hasError` if you do not have your own mo
 ### Mock Request
 
 ```js
-get(500)
+get(1000)
 .then(response => console.log(response))
 .catch(err => console.error(err));
 ```
@@ -35,7 +35,7 @@ will log the response data
 ### Fire an Error
 
 ```js
-get(500, true)
+get(1000, true)
 .then(response => console.log(response))
 .catch(err => console.error(err));
 ```
@@ -47,7 +47,7 @@ will log error message
 ```js
 import myMockData from './myMockData';
 
-get(500, myMockData)
+get(1000, myMockData)
 .then(response => console.log(response))
 .catch(err => console.error(err));
 ```
