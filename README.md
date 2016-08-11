@@ -1,6 +1,6 @@
 # mock-get
 
-Light mock http get request and return Promise
+:arrow_upper_right: Light mock http get request and return Promise
 
 ## Install
 
