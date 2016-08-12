@@ -1,11 +1,11 @@
 {
   "name": "mock-get",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Mock http get request",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib --presets es2015",
-    "test" : "ava test/"
+    "test": "ava test/"
   },
   "author": "Leo Hsieh <leo0924@gmail.com> (http://leoj.js.org)",
   "license": "MIT",
