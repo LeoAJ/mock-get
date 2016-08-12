@@ -1,7 +1,7 @@
 import Promise from 'bluebird';
 import mockData from './mockData';
 
-const mockGet = (delay = 500, response, hasError) => {
+const mockGet = (delay = 0, response, hasError) => {
 
   if (typeof response === 'boolean' && hasError === undefined) {
     hasError = response;

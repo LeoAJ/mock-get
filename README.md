@@ -16,7 +16,7 @@ import get from 'mock-get';
 get(delay, mockData, hasError);
 ```
 
-* `delay` milliseconds you want to delay your request, default is `500`
+* `delay` milliseconds you want to delay your request, default value is `0`
 * `mockData` json object will be resolve in the Promise (optional)
 * `hasError` default is false, set to true if you want the Promise to reject (optional)
 
