@@ -4,7 +4,7 @@
 [![Travis](https://img.shields.io/travis/LeoAJ/mock-get.svg?maxAge=2592000?style=flat-square)](https://travis-ci.org/LeoAJ/mock-get)
 [![license](https://img.shields.io/github/license/LeoAJ/mock-get.svg?maxAge=2592000?style=flat-square)](https://github.com/LeoAJ/mock-get/blob/master/LICENSE)
 
-:arrow_upper_right: Light mock http get request and return Promise
+:arrow_upper_right: Isomorphic light mock http get request and return Promise, support both node and browser environment
 
 ## Install
 
