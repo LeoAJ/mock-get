@@ -30,7 +30,7 @@ Use second parameter as boolean to set `hasError` if you do not have your own mo
 
 ```js
 get(1000)
-.then(response => console.log(response))
+.then(res => console.log(res))
 .catch(err => console.error(err));
 ```
 
@@ -40,7 +40,7 @@ will log the response data
 
 ```js
 get(1000, true)
-.then(response => console.log(response))
+.then(res => console.log(res))
 .catch(err => console.error(err));
 ```
 
@@ -49,11 +49,15 @@ will log error message
 ### Use your own mock data
 
 ```js
+get(1000, { name: 'foo', value: 'bar' })
+.then(res => console.log(res));
+```
+
+```js
 import myMockData from './myMockData';
 
 get(1000, myMockData)
-.then(response => console.log(response))
-.catch(err => console.error(err));
+.then(res => console.log(res));
 ```
 
 ## Default Response
