@@ -1,6 +1,6 @@
 {
   "name": "mock-get",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Isomorphic light mock HTTP get request and return Promise",
   "main": "lib/index.js",
   "scripts": {
