@@ -1,7 +1,7 @@
 {
   "name": "mock-get",
   "version": "1.2.0",
-  "description": "Mock http get request",
+  "description": "Isomorphic light mock HTTP get request and return Promise",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",

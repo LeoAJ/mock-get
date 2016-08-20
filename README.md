@@ -4,7 +4,7 @@
 [![Travis](https://img.shields.io/travis/LeoAJ/mock-get.svg?maxAge=2592000?style=flat-square)](https://travis-ci.org/LeoAJ/mock-get)
 [![license](https://img.shields.io/github/license/LeoAJ/mock-get.svg?maxAge=2592000?style=flat-square)](https://github.com/LeoAJ/mock-get/blob/master/LICENSE)
 
-:arrow_upper_right: Isomorphic light mock http get request and return Promise, support both node and browser environment
+:arrow_upper_right: Isomorphic light mock HTTP get request and return Promise, support both node and browser environment
 
 ## Install
 
@@ -15,7 +15,12 @@ $ npm install --save mock-get
 ## Usage
 
 ```js
+
+// ES6
 import get from 'mock-get';
+
+// node
+const get = require('mock-get');
 
 get(delay, mockData, hasError);
 ```
